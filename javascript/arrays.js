@@ -12,7 +12,7 @@
 // const arr = ["mango","lichi","pine apple","apple"];
 // console.log(fruits)
 // console.log(fruit[0])
-// console.log(fruit[1])
+// console.log(fruit[1])    
 // console.log(fruit[2])
 // console.log(fruit[3])
 
@@ -51,3 +51,4 @@
 // let name1="amit"
 // let name2="rohan"
 // console.log(name1.concat(name2))
+
