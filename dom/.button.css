@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #dcd7c0;
+}
+
+.box {
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+  border: 1px solid #444;
+  transition: background-color 0.3s ease;
+  height: 300px;
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+.button,
+.left {
+  width: 100px;
+  height: 50px;
+  background-color: #26e0bc;
+  border: 1px solid #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 5px;
+}
+
+.button:hover,
+.left:hover {
+  filter: brightness(0.9);
+}
+.button:active,
+.left:active {
+  transform: scale(0.95);
+}
