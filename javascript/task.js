@@ -575,17 +575,67 @@
 
 // console.log(result);
 
-// let num=[5,10,15,20]
-// let max =0;
-// for(let i=0; i<num.length; i++){
-//     if(num[i]>max)
-//         max=num[i]
-// }
-// console.log(max);
+// -------------------reverse a word in a sentence-------------------
 
-let[a, ...rest]=[1,2,3,4,]
-console.log(a);
-console.log(rest);
+// let sentence = "Hello World JavaScript";
+// let words = sentence.split(" ");
+// let result = "";
+
+// for (let i = 0; i < words.length; i++) {
+//     let reversed = "";
+
+//     for (let j = words[i].length - 1; j >= 0; j--) {
+//         reversed += words[i][j];
+//     }
+
+//     result += reversed;
+
+//     if (i < words.length - 1) {
+//         result += " ";
+//     }
+// }
+
+// console.log(result);
+
+// ---------------------------fetch data-------------------------
+
+// async function userData() {
+//    let response=await fetch("https://jsonplaceholder.typicode.com/users/1")
+//    let data =await response.json()
+//    console.log(data);
+
+// }
+// userData()
+
+
+
+
+
+
+// let str ="amit singh negi"
+// let words= str.split(" ")
+// let result =" "
+// for (let i=0; i<words.length; i++){
+//     let reversed= " ";
+//     for(let j=words[i].length-1; j>=0; j--){
+//         reversed+=words[i][j]
+//     }
+//     result+=reversed;
+//     if(i<words[i].length-1)
+//         result+=" "
+// }
+// console.log(result);
+
+
+
+
+// async function userData() {
+//    let response=await fetch("https://jsonplaceholder.typicode.com/users/1")
+//    let data =await response.json()
+//    console.log(data);
+
+// }
+// userData()
 
 
 
