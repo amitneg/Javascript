@@ -221,6 +221,27 @@
 // console.log("Negative:", negative);
 // console.log("zero", zero);
 
+// ---------------------------  find sum of positive numbers--- -----------------------
+
+// let num = [2, 9, -10, 20, -6, 19];
+// let p = [];
+// let n = [];
+// let sum = 0;
+// for (let i = 0; i < num.length; i++) {
+//   if (num[i] > 0) {
+//     p.push(num[i]);
+//     sum += num[i];
+//     num[i]++;
+//   } else if (num[i] < 0) {
+//     n.push(num[i]);
+//     num[i]++;
+//   }
+// }
+// console.log(p);
+// console.log(sum);
+
+// console.log(n);
+
 // let num=[2,3,5,8,9]
 // let max=num[0]
 // let second=num[0]
@@ -606,36 +627,4 @@
 
 // }
 // userData()
-
-
-
-
-
-
-// let str ="amit singh negi"
-// let words= str.split(" ")
-// let result =" "
-// for (let i=0; i<words.length; i++){
-//     let reversed= " ";
-//     for(let j=words[i].length-1; j>=0; j--){
-//         reversed+=words[i][j]
-//     }
-//     result+=reversed;
-//     if(i<words[i].length-1)
-//         result+=" "
-// }
-// console.log(result);
-
-
-
-
-// async function userData() {
-//    let response=await fetch("https://jsonplaceholder.typicode.com/users/1")
-//    let data =await response.json()
-//    console.log(data);
-
-// }
-// userData()
-
-
 
